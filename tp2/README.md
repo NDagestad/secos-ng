@@ -60,7 +60,7 @@ générées.
 ## Prise en main de l'IDT
 
 **Q1\* : Dans tp.c, localiser l'IDT et afficher son adresse de chargement**
-  (cf. fonction `get_idtr()` définie dans [`segmem.h`](../kernel/include/segmem.h)).
+  (cf. fonction `get_idtr()` définie dans [`intr.h`](../kernel/include/intr.h)).
 
 ## Gestion furtive des breakpoints #BP
 
