@@ -75,7 +75,7 @@ qu'elle puisse gérer l'exception #BP. Le but est de ne pas modifier
   l'écran.**
 
 **Q3 : Modifier le descripteur d'interruption (cf. type `int_desc_t` défini 
-  dans [`segmem.h`](../kernel/include/segmem.h)) de #BP, stocké
+  dans [`intr.h`](../kernel/include/intr.h)) de #BP, stocké
   dans l'IDT, afin d'y référencer `bp_handler()` à la place du trampoline
   déjà installé.**
 
